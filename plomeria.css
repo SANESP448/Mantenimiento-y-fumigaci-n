@@ -1,0 +1,60 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Hero Plomeria */
+.hero-plumbing {
+    background: linear-gradient(rgba(0, 123, 255, 0.8), rgba(0, 50, 100, 0.9)), 
+                url('https://www.transparenttextures.com/patterns/asfalt-light.png');
+    padding: 80px 0;
+}
+
+.hero-plumbing h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Sidebar y Contenedores */
+.sidebar-info {
+    border-top: 5px solid #0dcaf0;
+    position: sticky;
+    top: 90px;
+}
+
+.section-title {
+    border-left: 5px solid #0dcaf0;
+    padding-left: 15px;
+    font-weight: 700;
+}
+
+.emergency-box {
+    background-color: #e0f7fa;
+    border-left: 5px solid #0dcaf0;
+}
+
+/* Botón WhatsApp */
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    text-decoration: none;
+    transition: 0.3s;
+}
+.whatsapp-float:hover { transform: scale(1.1); color: white; }
+
+/* Acordeón */
+.accordion-button:not(.collapsed) {
+    background-color: #e0f7fa;
+    color: #055160;
+}

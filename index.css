@@ -1,0 +1,29 @@
+body { font-family: 'Roboto', sans-serif; }
+        .hero-section { background: #f8f9fa; padding: 60px 0; border-bottom: 5px solid #d9534f; }
+        .navbar-brand img { height: 50px; }
+        .service-card { transition: transform 0.3s; border: none; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .service-card:hover { transform: translateY(-10px); }
+        .slogan-box { border: 2px solid #d9534f; padding: 20px; border-radius: 10px; display: inline-block; }
+        .bg-dark-custom { background-color: #212529; color: white; }
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            color: #FFF;
+        }

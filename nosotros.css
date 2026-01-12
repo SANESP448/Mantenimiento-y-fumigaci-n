@@ -1,0 +1,22 @@
+/* --- ESTILOS ESPECÍFICOS PARA "SOBRE NOSOTROS" --- */
+.value-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1) !important;
+}
+
+/* Imagen principal */
+.row img {
+    max-height: 400px; /* Limita la altura de la imagen para que no sea gigante */
+    object-fit: cover;
+    width: 100%;
+}
+/* Creamos una clase personalizada */
+.img-nosotros {
+    max-width: 400px; /* Ajusta este número según tu gusto */
+    height: auto;     /* Mantiene la proporción */
+    margin: 0 auto;   /* Asegura que esté centrada */
+}

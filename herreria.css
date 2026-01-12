@@ -1,0 +1,6 @@
+body { font-family: 'Roboto', sans-serif; background-color: #f8f9fa; }
+.hero-section { background: linear-gradient(rgba(108, 117, 125, 0.8), rgba(33, 37, 41, 0.9)), url('https://www.transparenttextures.com/patterns/carbon-fibre.png'); padding: 80px 0 !important; }
+.fw-bold { color: #495057; }
+.info-card { background-color: #e9ecef; border-left: 6px solid #6c757d; }
+.sidebar { border-radius: 10px; border-top: 5px solid #6c757d; }
+.sidebar ul li { padding: 10px 0; border-bottom: 1px solid #dee2e6; }

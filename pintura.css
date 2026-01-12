@@ -1,0 +1,117 @@
+/* Importación de tipografía para un look más moderno */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #fcfcfc;
+}
+
+/* --- Encabezado (Hero Section) --- */
+header.bg-success {
+    background: linear-gradient(rgba(25, 135, 84, 0.85), rgba(10, 55, 30, 0.9)), 
+                url('https://www.transparenttextures.com/patterns/clean-gray-paper.png');
+    padding: 100px 0 !important;
+    border-bottom: 8px solid #146c43;
+}
+
+header h1 {
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+/* --- Sección de Contenido --- */
+h2.fw-bold {
+    color: #198754;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+h2.fw-bold::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 4px;
+    background-color: #198754;
+}
+
+/* Estilo para las listas de garantía */
+.list-group-item {
+    border: none;
+    padding-left: 0;
+    background: transparent;
+}
+
+/* --- Sidebar (Cuadro lateral) --- */
+.bg-light {
+    background-color: #ffffff !important;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.bg-light:hover {
+    transform: translateY(-5px);
+}
+
+.border-success {
+    border-left-width: 6px !important;
+}
+
+/* Estilo para la lista de servicios en el sidebar */
+.col-lg-4 ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.col-lg-4 ul li {
+    padding: 8px 0;
+    border-bottom: 1px dashed #dee2e6;
+}
+
+.col-lg-4 ul li::before {
+    content: "🎨";
+    margin-right: 10px;
+}
+
+/* --- Botón Flotante de WhatsApp --- */
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+    color: #FFF;
+    background-color: #128c7e;
+}
+
+/* --- Footer --- */
+footer {
+    margin-top: 50px;
+    letter-spacing: 1px;
+}
+
+/* Ajuste de imagen */
+img.img-fluid {
+    transition: filter 0.3s ease;
+}
+
+img.img-fluid:hover {
+    filter: brightness(1.05);
+}
